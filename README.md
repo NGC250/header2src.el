@@ -1,3 +1,5 @@
+# Header to source converter for C
+
 This function is useful to create a source file from a header with extern declarations.
 
 For example, consider the following globals header located at "/path/globals.h" relative to the current file:
