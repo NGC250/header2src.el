@@ -41,3 +41,4 @@ double* Josuke; //this is a comment
 uint8_t Jolyne;
 bool Jodio;
 ```
+The function adds include directive automatically.
