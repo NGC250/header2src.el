@@ -12,7 +12,7 @@
 ;; and generates a matching C source file defining those variables.
 ;;
 ;; Usage:
-;;   M-x header2source-generate
+;;   M-x header2src-generate
 ;;
 
 ;;; Code:
@@ -60,6 +60,6 @@ with open(save_path , "a") as s:
     (call-process-region python-code nil "python3"
                          nil output-buffer nil
                          header-file source-file)
-    (message "header2source: Generated %s" source-file)))
+    (message "header2src: Generated %s" source-file)))
 
-(provide 'header2source)
+(provide 'header2src)
