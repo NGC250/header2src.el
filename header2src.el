@@ -1,11 +1,11 @@
-;;; header2src.el --- Generates C source from header files by simply replacing extern variables
+;;; header2src.el --- Generates C source from header files by simply replacing extern variables  -*- lexical-binding: t; -*-
 
 ;; Author: 9timestheSolarMass
 ;; Maintainer: 9timestheSolarMass
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "25.1"))
 ;; Keywords: c, tools, convenience
-;; URL: https://github.com/NGC250/header2src
+;; URL: https://github.com/NGC250/header2src.el
 
 ;;; Commentary:
 ;; This package extracts extern variable declarations from a C header
@@ -17,7 +17,7 @@
 
 ;;; Code:
 
-(defun header2source-generate ()
+(defun header2src-generate ()
   "Generate a .c file containing definitions for all extern vars in the current header."
   (interactive)
   (unless (buffer-file-name)
